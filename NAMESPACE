@@ -3,5 +3,6 @@
 export(create_postcard)
 export(jolla)
 export(jolla_blue)
+export(jolla_ellessenne)
 export(onofre)
 export(trestles)

@@ -30,6 +30,14 @@ onofre <- function(css = NULL, includes = NULL) {
   get_template("onofre", css, includes)
 }
 
+#' 'jolla-ellessenne' website template.
+#'
+#' @inheritParams rmarkdown::html_document
+#' @export
+jolla_ellessenne <- function(css = NULL, includes = NULL) {
+  get_template("jolla-ellessenne", css, includes)
+}
+
 get_template <- function(name, css, includes) {
 
   # Must we use "old" templates?
